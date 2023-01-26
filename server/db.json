@@ -1,0 +1,112 @@
+{
+  "fruits": [
+    {
+      "id": 1,
+      "img": "./src/images/1.jpg",
+      "title": "Apple",
+      "price": 10
+    },
+    {
+      "id": 2,
+      "img": "./src/images/2.jpeg",
+      "title": "Avocado",
+      "price": 50
+    },
+    {
+      "id": 3,
+      "img": "./src/images/3.jpg",
+      "title": "Bananas",
+      "price": 30
+    },
+    {
+      "id": 4,
+      "img": "./src/images/4.jpg",
+      "title": "Cherry",
+      "price": 5
+    },
+    {
+      "id": 5,
+      "img": "./src/images/5.jpg",
+      "title": "Dates",
+      "price": 10
+    },
+    {
+      "id": 6,
+      "img": "./src/images/6.jpg",
+      "title": "Grapefruit",
+      "price": 50
+    },
+    {
+      "id": 7,
+      "img": "./src/images/7.jpg",
+      "title": "Kiwifruit",
+      "price": 30
+    },
+    {
+      "id": 8,
+      "img": "./src/images/8.jpg",
+      "title": "Lemon",
+      "price": 5
+    },
+    {
+      "id": 9,
+      "img": "./src/images/9.jpg",
+      "title": "Mandarins",
+      "price": 10
+    },
+    {
+      "id": 10,
+      "img": "./src/images/10.jpg",
+      "title": "Mango",
+      "price": 50
+    },
+    {
+      "id": 11,
+      "img": "./src/images/11.jpg",
+      "title": "Oranges",
+      "price": 30
+    },
+    {
+      "id": 12,
+      "img": "./src/images/12.jpg",
+      "title": "Pear",
+      "price": 5
+    },
+    {
+      "id": 13,
+      "img": "./src/images/13.jpg",
+      "title": "Pineapple",
+      "price": 10
+    },
+    {
+      "id": 14,
+      "img": "./src/images/14.jpg",
+      "title": "Plums",
+      "price": 5
+    },
+    {
+      "id": 15,
+      "img": "./src/images/15.jpg",
+      "title": "Strawberry",
+      "price": 5
+    },
+    {
+      "id": 16,
+      "img": "./src/images/16.jpg",
+      "title": "Weed",
+      "price": 99.99
+    },
+    {
+      "id": 17,
+      "img": "./src/images/17.jpg",
+      "title": "Watermelon",
+      "price": 10
+    },
+    {
+      "id": 18,
+      "img": "./src/images/18.jpg",
+      "title": "Malon",
+      "price": 30
+    }
+  ]
+}

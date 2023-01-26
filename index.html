@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>price filter</title>
+    <link rel="stylesheet" href="./src/style/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="price__controller">
+        <div class="price__controller-slider">
+          <span>0</span>
+        </div>
+        <div class="price__controller-field">
+          <div class="value left">0</div>
+          <input id="priceVal" type="range" min="0" max="100" value="0" />
+          <div class="value right">100</div>
+        </div>
+      </div>
+
+      <div class="fruits">
+        <div class="fruits__cards"></div>
+      </div>
+    </div>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>

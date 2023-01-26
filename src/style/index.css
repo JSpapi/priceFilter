@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.price__controller {
+  height: 80px;
+  width: 400px;
+  border-radius: 8px;
+  background: pink;
+  margin: 100px auto;
+  padding: 0 65px 0 45px;
+  text-align: center;
+}
+
+.price__controller-slider {
+  width: 100%;
+  position: relative;
+}
+
+.price__controller-slider span {
+  position: absolute;
+  left: -5%;
+  top: -40px;
+  width: 45px;
+  height: 45px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 55px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.price__controller-slider span::after {
+  content: "";
+  position: absolute;
+  left: -3px;
+  transform: rotate(45deg);
+  width: 45px;
+  height: 45px;
+  background: #0d54cf;
+  border: 3px solid rgb(21, 182, 231);
+  z-index: -1;
+  border-radius: 50% 50% 0% 50%;
+}
+
+.price__controller-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+
+.value {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0d54cf;
+}
+
+.left {
+  left: -22px;
+}
+
+.right {
+  right: -42px;
+}
+
+.price__controller-field input {
+  -webkit-appearance: none;
+  height: 3px;
+  width: 100%;
+  background: #0cb3f5;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* !FRUITS STYLE */
+.fruits{
+	width: 100%;
+}
+
+.warrning{
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+  color: red;
+}
+
+.fruits__cards{
+  place-items: center;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.fruits__card{
+	width: 100%;
+	max-width: 300px;
+	border-radius: 5px;
+}
+
+.fruits__card-header{
+	width: 100%;
+	height: 250px;
+  overflow: hidden;
+}
+
+.fruits__card-header img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	object-fit: cover;
+  transition: .3s ease-in-out;
+}
+
+.fruits__card:hover .fruits__card-header img{
+  transform: scale(1.1);
+}
+
+.fruits__card-body{
+  background: #f59898;
+  padding: 20px;
+  text-align: center;
+}
+
+.title{
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  color: rgb(77, 59, 59);
+}
+
+.price span{
+  color: green;
+}
